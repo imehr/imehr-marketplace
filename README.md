@@ -24,6 +24,15 @@ Professional skills for Claude Code covering deployment, infrastructure, and dev
 
 Battle-tested skills for professional development workflows:
 
+#### Learning Skills
+
+- **learner-tools** - Self-improving metacognitive recipe tools
+  - Decision Historian: Learn context-aware decisions
+  - Style Learner: Learn personal writing voice
+  - Meta-Recipe Tuner: Learn pipeline performance
+  - Knowledge Compressor: Learn extraction rules
+  - Production-ready: 44 tests, 100% passing
+
 #### Deployment Skills
 
 - **telegram-integration** - Telegram bot and Mini App integration using Telegraf
@@ -61,12 +70,14 @@ Each skill must pass:
 ### imehr-skills
 
 **Categories:**
+- learning
 - deployment
 - infrastructure
 - development
 - workflows
 
 **Current Skills:**
+- Learner Tools: Self-improving recipes (v1.0.0)
 - Telegram bot and Mini App integration (v1.0.0)
 - Railway deployment (v1.0.0)
 - Skills/marketplace builder (v1.0.0)
@@ -94,5 +105,5 @@ This marketplace follows the same pattern as [obra/superpowers-marketplace](http
 
 ## Version
 
-**Current:** v1.2.0
+**Current:** v1.4.0
 **Last Updated:** January 2025
