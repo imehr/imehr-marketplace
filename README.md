@@ -26,6 +26,13 @@ Battle-tested skills for professional development workflows:
 
 #### Deployment Skills
 
+- **telegram-integration** - Telegram bot and Mini App integration using Telegraf
+  - Bot development with commands, AI, interactive UI
+  - Mini App integration with security validation
+  - Environment-specific patterns (local/production)
+  - Platform deployment (Railway, Vercel, serverless)
+  - Diagnostic router for quick troubleshooting
+
 - **railway** - Railway.com deployment and management
   - Next.js + PostgreSQL support
   - Verification safeguards
@@ -60,7 +67,9 @@ Each skill must pass:
 - workflows
 
 **Current Skills:**
+- Telegram bot and Mini App integration (v1.0.0)
 - Railway deployment (v1.0.0)
+- Skills/marketplace builder (v1.0.0)
 
 **Coming Soon:**
 - Vercel deployment
@@ -85,5 +94,5 @@ This marketplace follows the same pattern as [obra/superpowers-marketplace](http
 
 ## Version
 
-**Current:** v1.0.0
-**Last Updated:** October 2025
+**Current:** v1.2.0
+**Last Updated:** January 2025
