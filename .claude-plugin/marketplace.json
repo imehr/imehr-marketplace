@@ -1,39 +1,24 @@
 {
-  "name": "imehr-skills-marketplace",
-  "version": "1.0.0",
-  "description": "Professional skills marketplace for Claude Code - deployment, infrastructure, and development workflows",
+  "name": "imehr-marketplace",
+  "owner": {
+    "name": "Mehran Mozaffari",
+    "email": "mehran@example.com"
+  },
+  "metadata": {
+    "description": "Professional skills for deployment, infrastructure, and development workflows",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "imehr-skills",
-      "displayName": "Professional Skills",
-      "description": "Battle-tested skills for deployment, infrastructure, and development workflows. All skills tested with RED-GREEN-REFACTOR methodology.",
-      "repository": "github:imehr/skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imehr/skills.git"
+      },
+      "description": "Battle-tested skills: Railway deployment, TDD methodology, verification safeguards, token-efficient design",
       "version": "1.0.0",
-      "author": "Mehran Mozaffari",
-      "license": "MIT",
-      "categories": [
-        "deployment",
-        "infrastructure",
-        "development",
-        "workflows"
-      ],
-      "skills": [
-        {
-          "name": "railway",
-          "category": "deployment",
-          "description": "Railway.com deployment and management for Next.js with PostgreSQL",
-          "path": "skills/deployment/railway",
-          "tested": true,
-          "verification_safeguards": true
-        }
-      ],
-      "features": [
-        "TDD-tested skills (RED-GREEN-REFACTOR)",
-        "Verification safeguards for platform-specific skills",
-        "Token-efficient (<1000 words per skill)",
-        "Comprehensive documentation",
-        "False-positive prevention"
-      ]
+      "keywords": ["railway", "deployment", "infrastructure", "tdd", "skills", "verified"],
+      "strict": true
     }
   ]
 }
