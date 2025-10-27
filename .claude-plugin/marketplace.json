@@ -2,11 +2,11 @@
   "name": "imehr-marketplace",
   "owner": {
     "name": "Mehran Mozaffari",
-    "email": "mehran@example.com"
+    "email": "mehran.mozaffari@gmail.com"
   },
   "metadata": {
-    "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, and workflow automation",
-    "version": "1.4.0"
+    "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, and workflow automation",
+    "version": "1.5.0"
   },
   "plugins": [
     {
@@ -15,9 +15,41 @@
         "source": "url",
         "url": "https://github.com/imehr/skills.git"
       },
-      "description": "Battle-tested skills: Learner Tools (self-improving recipes), Telegram bot/Mini App integration, Railway deployment, Frontend UI (Next.js/React/Shadcn), skills/marketplace builder, TDD methodology, verification safeguards",
-      "version": "1.4.0",
-      "keywords": ["learning", "learner-tools", "metacognitive", "self-improving", "feedback", "patterns", "telegram", "bot", "mini-app", "railway", "deployment", "infrastructure", "frontend", "nextjs", "react", "shadcn", "tailwind", "tdd", "skills", "verified", "commands", "marketplace", "builder", "webhook", "telegraf"],
+      "description": "Battle-tested skills: Learner Tools, Telegram bot/Mini App, Railway deployment, Frontend UI (Next.js/React/Shadcn), Modern OKLCH Design System, skills/marketplace builder, TDD methodology, verification safeguards",
+      "version": "1.5.0",
+      "keywords": [
+        "learning",
+        "learner-tools",
+        "metacognitive",
+        "self-improving",
+        "feedback",
+        "patterns",
+        "telegram",
+        "bot",
+        "mini-app",
+        "railway",
+        "deployment",
+        "infrastructure",
+        "frontend",
+        "nextjs",
+        "react",
+        "shadcn",
+        "tailwind",
+        "design-system",
+        "oklch",
+        "cva",
+        "design-tokens",
+        "ui-components",
+        "dark-mode",
+        "tdd",
+        "skills",
+        "verified",
+        "commands",
+        "marketplace",
+        "builder",
+        "webhook",
+        "telegraf"
+      ],
       "strict": true
     }
   ]
