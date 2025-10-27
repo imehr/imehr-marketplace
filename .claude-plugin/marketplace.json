@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Professional skills for deployment, infrastructure, frontend development, and workflow automation",
-    "version": "1.2.0"
+    "version": "1.3.0"
   },
   "plugins": [
     {
@@ -16,7 +16,7 @@
         "url": "https://github.com/imehr/skills.git"
       },
       "description": "Battle-tested skills: Telegram bot/Mini App integration, Railway deployment, Frontend UI (Next.js/React/Shadcn), skills/marketplace builder, TDD methodology, verification safeguards",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "keywords": ["telegram", "bot", "mini-app", "railway", "deployment", "infrastructure", "frontend", "nextjs", "react", "shadcn", "tailwind", "tdd", "skills", "verified", "commands", "marketplace", "builder", "webhook", "telegraf"],
       "strict": true
     }
