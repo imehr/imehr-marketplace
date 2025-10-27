@@ -7,7 +7,7 @@ Professional skills for Claude Code covering deployment, infrastructure, and dev
 ### Add Marketplace
 
 ```bash
-/plugin marketplace add imehr/skills-marketplace
+/plugin marketplace add imehr/imehr-marketplace
 ```
 
 ### Install Skills Plugin
@@ -75,11 +75,11 @@ This marketplace follows the same pattern as [obra/superpowers-marketplace](http
 
 **Author:** Mehran Mozaffari
 **License:** MIT
-**Repository:** https://github.com/imehr/skills-marketplace
+**Repository:** https://github.com/imehr/imehr-marketplace
 
 ## Support
 
-- **Issues:** [GitHub Issues](https://github.com/imehr/skills-marketplace/issues)
+- **Issues:** [GitHub Issues](https://github.com/imehr/imehr-marketplace/issues)
 - **Skills Repository:** [imehr/skills](https://github.com/imehr/skills)
 - **Contributions:** See [CONTRIBUTING.md](https://github.com/imehr/skills/blob/main/CONTRIBUTING.md) in the skills repository
 
