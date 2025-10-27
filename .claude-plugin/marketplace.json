@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Professional skills for deployment, infrastructure, and development workflows",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -15,9 +15,9 @@
         "source": "url",
         "url": "https://github.com/imehr/skills.git"
       },
-      "description": "Battle-tested skills: Railway deployment with /railway command, TDD methodology, verification safeguards",
-      "version": "1.0.1",
-      "keywords": ["railway", "deployment", "infrastructure", "tdd", "skills", "verified", "commands"],
+      "description": "Battle-tested skills: Railway deployment, skills/marketplace builder, TDD methodology, verification safeguards",
+      "version": "1.1.0",
+      "keywords": ["railway", "deployment", "infrastructure", "tdd", "skills", "verified", "commands", "marketplace", "builder"],
       "strict": true
     }
   ]
