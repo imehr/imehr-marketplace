@@ -5,7 +5,7 @@
     "email": "mehran@example.com"
   },
   "metadata": {
-    "description": "Professional skills for deployment, infrastructure, and development workflows",
+    "description": "Professional skills for deployment, infrastructure, frontend development, and workflow automation",
     "version": "1.2.0"
   },
   "plugins": [
@@ -15,9 +15,9 @@
         "source": "url",
         "url": "https://github.com/imehr/skills.git"
       },
-      "description": "Battle-tested skills: Telegram bot/Mini App integration, Railway deployment, skills/marketplace builder, TDD methodology, verification safeguards",
+      "description": "Battle-tested skills: Telegram bot/Mini App integration, Railway deployment, Frontend UI (Next.js/React/Shadcn), skills/marketplace builder, TDD methodology, verification safeguards",
       "version": "1.2.0",
-      "keywords": ["telegram", "bot", "mini-app", "railway", "deployment", "infrastructure", "tdd", "skills", "verified", "commands", "marketplace", "builder", "webhook", "telegraf"],
+      "keywords": ["telegram", "bot", "mini-app", "railway", "deployment", "infrastructure", "frontend", "nextjs", "react", "shadcn", "tailwind", "tdd", "skills", "verified", "commands", "marketplace", "builder", "webhook", "telegraf"],
       "strict": true
     }
   ]
