@@ -59,7 +59,7 @@
         "url": "https://github.com/imehr/blog-cc-framework.git"
       },
       "description": "Claude Code plugin for blog-cc static site management with AI-powered content generation, validation, and GitHub Pages deployment automation",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "keywords": [
         "blog",
         "static-site",
