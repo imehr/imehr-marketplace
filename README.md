@@ -48,6 +48,39 @@ Battle-tested skills for professional development workflows:
   - Complete CLI reference
   - Tested with 3 pressure scenarios
 
+### Book Writer Plugin (book-writer)
+
+**Repository:** [github.com/imehr/book-writer-plugin](https://github.com/imehr/book-writer-plugin)
+
+Complete AI-powered book writing automation system:
+
+#### Features
+
+- **35+ Specialized Agents** - Content creation, QA, production, orchestration
+- **Multi-Format Export** - EPUB, HTML, PDF via Pandoc
+- **Quality Pipelines** - Automated review, technical validation, copyediting
+- **GitHub Releases** - Automated release creation and distribution
+- **Self-Updating Books** - Monitor sources and apply updates automatically
+- **Research Integration** - Ingest and synthesize research materials
+- **Multi-Agent Orchestration** - Coordinate complex workflows
+
+#### Commands (all prefixed with `book-writer:`)
+
+```bash
+/book-writer:export-book [book] epub html pdf    # Export to formats
+/book-writer:audit-book                          # Check book status
+/book-writer:start-book-project                  # Initialize new book
+/book-writer:review-and-promote [file]           # Quality review & promotion
+/book-writer:publish-release [book]              # Create GitHub release
+# ... and 22 more commands
+```
+
+#### Installation
+
+```bash
+/plugin install book-writer@imehr-marketplace
+```
+
 ## Features
 
 All skills in this marketplace are:
@@ -105,5 +138,5 @@ This marketplace follows the same pattern as [obra/superpowers-marketplace](http
 
 ## Version
 
-**Current:** v1.4.0
-**Last Updated:** January 2025
+**Current:** v1.7.0
+**Last Updated:** November 17, 2025

@@ -5,8 +5,8 @@
     "email": "mehran.mozaffari@gmail.com"
   },
   "metadata": {
-    "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, content management, and workflow automation",
-    "version": "1.6.0"
+    "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, content management, book writing automation, and workflow automation",
+    "version": "1.7.0"
   },
   "plugins": [
     {
@@ -80,6 +80,36 @@
         "bookmarks",
         "chrome-mcp",
         "social-media"
+      ],
+      "strict": true
+    },
+    {
+      "name": "book-writer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imehr/book-writer-plugin.git"
+      },
+      "description": "Complete AI-powered book writing automation with 35+ specialized agents, multi-format export (EPUB/HTML/PDF), quality pipelines, and GitHub releases",
+      "version": "3.0.0",
+      "keywords": [
+        "book-writing",
+        "content-creation",
+        "automation",
+        "publishing",
+        "epub",
+        "pdf",
+        "html",
+        "ai-agents",
+        "orchestration",
+        "quality-assurance",
+        "multi-agent",
+        "research",
+        "export",
+        "release-automation",
+        "pandoc",
+        "github-releases",
+        "self-updating",
+        "compliance-validation"
       ],
       "strict": true
     }
