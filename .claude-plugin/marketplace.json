@@ -10,12 +10,12 @@
   },
   "plugins": [
     {
-      "name": "ccii",
+      "name": "vet",
       "source": {
         "source": "url",
-        "url": "https://github.com/imehr/ccii.git"
+        "url": "https://github.com/imehr/vet.git"
       },
-      "description": "Virtual Engineering Organization for Claude Code: Senior Architect, Security Engineer, and DevOps personas. Enforces Clean Architecture, Design Systems (Shadcn/Tokens), TDD, and CI/CD.",
+      "description": "VET (Virtual Engineering Team) for Claude Code. Adds Senior Architect, Security Engineer, and DevOps personas. Enforces Clean Architecture, Design Systems (Shadcn/Tokens), TDD, and CI/CD.",
       "version": "2.0.0",
       "keywords": [
         "architecture",
