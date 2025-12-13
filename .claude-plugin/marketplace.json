@@ -10,6 +10,32 @@
   },
   "plugins": [
     {
+      "name": "ccii",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imehr/ccii.git"
+      },
+      "description": "Virtual Engineering Organization for Claude Code: Senior Architect, Security Engineer, and DevOps personas. Enforces Clean Architecture, Design Systems (Shadcn/Tokens), TDD, and CI/CD.",
+      "version": "2.0.0",
+      "keywords": [
+        "architecture",
+        "frontend",
+        "backend",
+        "security",
+        "devops",
+        "testing",
+        "tdd",
+        "design-system",
+        "observability",
+        "performance",
+        "clean-architecture",
+        "virtual-team",
+        "guardrails",
+        "senior-engineer"
+      ],
+      "strict": true
+    },
+    {
       "name": "imehr-skills",
       "source": {
         "source": "url",
