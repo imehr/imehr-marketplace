@@ -16,7 +16,7 @@
         "url": "https://github.com/imehr/vet.git"
       },
       "description": "VET (Virtual Engineering Team) for Claude Code. Adds Senior Architect, Security Engineer, and DevOps personas. Enforces Clean Architecture, Design Systems (Shadcn/Tokens), TDD, and CI/CD.",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "keywords": [
         "architecture",
         "frontend",
@@ -31,7 +31,28 @@
         "clean-architecture",
         "virtual-team",
         "guardrails",
-        "senior-engineer"
+        "senior-engineer",
+        "feedback"
+      ],
+      "strict": true
+    },
+    {
+      "name": "cc-ui-feedback",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imehr/cc-ui-feedback.git"
+      },
+      "description": "Cross-project UI feedback collection system. Drop pins on your UI, get feedback ID, and use /feedback to have Claude fix the issue automatically. Integrates with VET.",
+      "version": "1.0.0",
+      "keywords": [
+        "feedback",
+        "ui",
+        "react",
+        "widget",
+        "bug-tracking",
+        "automation",
+        "vet",
+        "claude-code-plugin"
       ],
       "strict": true
     },
