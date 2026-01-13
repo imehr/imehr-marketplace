@@ -5,8 +5,8 @@
     "email": "mehran.mozaffari@gmail.com"
   },
   "metadata": {
-    "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, content management, book writing automation, and workflow automation",
-    "version": "1.7.0"
+    "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, content management, book writing automation, video creation, and workflow automation",
+    "version": "1.8.0"
   },
   "plugins": [
     {
@@ -159,6 +159,49 @@
         "compliance-validation"
       ],
       "strict": true
+    },
+    {
+      "name": "video-explainer-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imehr/video-explainer-skill.git"
+      },
+      "description": "Create multi-platform explainer videos (YouTube, Shorts, TikTok, Instagram, LinkedIn) with intelligent orchestration, Brand × Platform × Style configuration matrix, learning memory system, and technique skills for hooks, narrative structures, and platform optimization",
+      "version": "0.1.0",
+      "keywords": [
+        "video",
+        "explainer",
+        "content-creation",
+        "youtube",
+        "tiktok",
+        "instagram",
+        "linkedin",
+        "shorts",
+        "reels",
+        "multi-platform",
+        "orchestrator",
+        "agents",
+        "brand",
+        "style",
+        "learning-memory",
+        "storytelling",
+        "hooks",
+        "narrative",
+        "animation",
+        "remotion",
+        "voiceover",
+        "tts"
+      ],
+      "strict": true,
+      "requires": {
+        "external": [
+          {
+            "name": "video_explainer",
+            "description": "Python CLI tool for video generation",
+            "install": "pip install -e <video_explainer_repo>"
+          }
+        ]
+      }
     }
   ]
 }

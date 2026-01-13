@@ -122,6 +122,20 @@ Each skill must pass:
 - Redis caching
 - Docker workflows
 
+### Video Explainer Plugin (video-explainer-skill)
+
+**Repository:** [github.com/imehr/video-explainer-skill](https://github.com/imehr/video-explainer-skill)
+
+Create multi-platform explainer videos with intelligent orchestration:
+
+- **Multi-platform output** - YouTube, Shorts, TikTok, Instagram, LinkedIn
+- **Brand × Platform × Style** - Fully customizable configuration matrix
+- **Intelligent orchestrator** - Parallel background agent execution
+- **Learning memory** - Improves over time based on feedback
+- **Technique skills** - Hooks, narrative structures, platform optimization
+
+**Requires:** [video_explainer](https://github.com/example/video_explainer) Python CLI
+
 ## About
 
 This marketplace follows the same pattern as [obra/superpowers-marketplace](https://github.com/obra/superpowers-marketplace), providing a curated collection of professional-grade skills.
@@ -138,5 +152,5 @@ This marketplace follows the same pattern as [obra/superpowers-marketplace](http
 
 ## Version
 
-**Current:** v1.7.0
-**Last Updated:** November 17, 2025
+**Current:** v1.8.0
+**Last Updated:** January 2026
