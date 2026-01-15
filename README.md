@@ -136,6 +136,26 @@ Create multi-platform explainer videos with intelligent orchestration:
 
 **Requires:** [video_explainer](https://github.com/example/video_explainer) Python CLI
 
+### Capture Content Skill (capture-content)
+
+**Repository:** [github.com/imehr/capture-content-skill](https://github.com/imehr/capture-content-skill)
+
+Transform your work sessions into publishable content through journalist-style interviews:
+
+- **Structured 4-phase interview** - What happened, why it matters, content strategy, visual capture
+- **Multiple output formats** - Twitter/X threads (7-12 tweets), LinkedIn posts, quote-tweet additions
+- **Automatic style adaptation** - Technical Observer, Enthusiastic Builder, Framework Teacher
+- **Visual guidance** - Screenshot and video recording instructions
+- **Session-based triggers** - Problem solving, tool discovery, system building, meaningful realizations
+
+**Usage:**
+```bash
+/capture-content                              # Full interview
+/capture-content "just solved interesting problem"  # With context
+/capture-content synthesis                    # For synthesis content
+/capture-content quick                        # Fewer questions
+```
+
 ## About
 
 This marketplace follows the same pattern as [obra/superpowers-marketplace](https://github.com/obra/superpowers-marketplace), providing a curated collection of professional-grade skills.
@@ -152,5 +172,5 @@ This marketplace follows the same pattern as [obra/superpowers-marketplace](http
 
 ## Version
 
-**Current:** v1.8.0
+**Current:** v1.9.0
 **Last Updated:** January 2026

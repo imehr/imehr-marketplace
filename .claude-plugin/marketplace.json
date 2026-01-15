@@ -5,8 +5,8 @@
     "email": "mehran.mozaffari@gmail.com"
   },
   "metadata": {
-    "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, content management, book writing automation, video creation, and workflow automation",
-    "version": "1.8.0"
+    "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, content management, book writing automation, video creation, content extraction, and workflow automation",
+    "version": "1.9.0"
   },
   "plugins": [
     {
@@ -202,6 +202,106 @@
           }
         ]
       }
+    },
+    {
+      "name": "create-audio",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imehr/create-audio-skill.git"
+      },
+      "description": "Generate audio from text using 13 TTS providers (local + cloud). Supports Pocket TTS (CPU, 8 voices), MLX-Audio (Apple Silicon, 7 models, 50+ voices), ElevenLabs (cloud API, 32 languages, 10k+ voices), and Coqui TTS (open source, 4 models, voice cloning). Covers 32+ languages including English, Japanese, Chinese, French, Spanish, Italian, Portuguese, Hindi, German, Russian, Korean, Arabic, and more. Includes voice cloning, speed control, and both local privacy-focused and cloud production-quality options.",
+      "version": "0.3.0",
+      "keywords": [
+        "audio",
+        "tts",
+        "text-to-speech",
+        "voice",
+        "voiceover",
+        "voice-cloning",
+        "multilingual",
+        "pocket-tts",
+        "mlx-audio",
+        "elevenlabs",
+        "coqui-tts",
+        "kyutai",
+        "apple-silicon",
+        "local-tts",
+        "cloud-tts",
+        "cpu-tts",
+        "audio-generation",
+        "speech-synthesis",
+        "narration",
+        "content-creation",
+        "production-quality",
+        "open-source",
+        "kokoro",
+        "xtts",
+        "japanese",
+        "chinese",
+        "french",
+        "spanish",
+        "german",
+        "russian",
+        "korean",
+        "arabic"
+      ],
+      "strict": true,
+      "requires": {
+        "external": [
+          {
+            "name": "pocket-tts",
+            "description": "Kyutai Labs Pocket TTS - CPU-based text-to-speech model",
+            "install": "pip install pocket-tts scipy"
+          },
+          {
+            "name": "mlx-audio",
+            "description": "MLX-Audio - Apple Silicon optimized TTS with 7 models (optional, requires M1/M2/M3/M4)",
+            "install": "pip install mlx-audio"
+          },
+          {
+            "name": "elevenlabs",
+            "description": "ElevenLabs - Cloud API for production-quality TTS (optional, requires API key)",
+            "install": "pip install elevenlabs"
+          },
+          {
+            "name": "coqui-tts",
+            "description": "Coqui TTS - Open source local TTS with voice cloning (optional)",
+            "install": "pip install TTS"
+          }
+        ]
+      }
+    },
+    {
+      "name": "capture-content",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imehr/capture-content-skill.git"
+      },
+      "description": "Journalist-style interview skill that extracts publishable content from your work sessions. Structured 4-phase interview process generates Twitter/X threads, LinkedIn posts, and screenshot guidance with automatic writing style adaptation.",
+      "version": "1.0.0",
+      "keywords": [
+        "content-creation",
+        "interview",
+        "social-media",
+        "twitter",
+        "linkedin",
+        "writing",
+        "journalism",
+        "storytelling",
+        "publishing",
+        "blog",
+        "documentation",
+        "extraction",
+        "synthesis",
+        "workflow",
+        "automation",
+        "session-capture",
+        "technical-writing",
+        "thought-leadership",
+        "personal-branding",
+        "content-strategy"
+      ],
+      "strict": true
     }
   ]
 }
