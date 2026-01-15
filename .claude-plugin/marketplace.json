@@ -192,16 +192,7 @@
         "voiceover",
         "tts"
       ],
-      "strict": true,
-      "requires": {
-        "external": [
-          {
-            "name": "video_explainer",
-            "description": "Python CLI tool for video generation",
-            "install": "pip install -e <video_explainer_repo>"
-          }
-        ]
-      }
+      "strict": true
     },
     {
       "name": "create-audio",
@@ -245,31 +236,7 @@
         "korean",
         "arabic"
       ],
-      "strict": true,
-      "requires": {
-        "external": [
-          {
-            "name": "pocket-tts",
-            "description": "Kyutai Labs Pocket TTS - CPU-based text-to-speech model",
-            "install": "pip install pocket-tts scipy"
-          },
-          {
-            "name": "mlx-audio",
-            "description": "MLX-Audio - Apple Silicon optimized TTS with 7 models (optional, requires M1/M2/M3/M4)",
-            "install": "pip install mlx-audio"
-          },
-          {
-            "name": "elevenlabs",
-            "description": "ElevenLabs - Cloud API for production-quality TTS (optional, requires API key)",
-            "install": "pip install elevenlabs"
-          },
-          {
-            "name": "coqui-tts",
-            "description": "Coqui TTS - Open source local TTS with voice cloning (optional)",
-            "install": "pip install TTS"
-          }
-        ]
-      }
+      "strict": true
     },
     {
       "name": "capture-content",
