@@ -5,8 +5,8 @@
     "email": "mehran.mozaffari@gmail.com"
   },
   "metadata": {
-    "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, content management, book writing automation, video creation, content extraction, and workflow automation",
-    "version": "1.9.0"
+    "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, content management, book writing automation, video creation, content extraction, development logging, and workflow automation",
+    "version": "1.10.0"
   },
   "plugins": [
     {
@@ -300,6 +300,38 @@
         "thought-leadership",
         "personal-branding",
         "content-strategy"
+      ],
+      "strict": true
+    },
+    {
+      "name": "dev-log",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imehr/dev-log-plugin.git"
+      },
+      "description": "Automatic development session logging. Captures tools, decisions, accounts, configuration changes, and progress from conversation context. Project-centric organization with timestamped entries. Interview mode for content creation (Twitter, LinkedIn, blogs).",
+      "version": "1.0.0",
+      "keywords": [
+        "dev-log",
+        "logging",
+        "session-tracking",
+        "development",
+        "tools",
+        "decisions",
+        "accounts",
+        "configuration",
+        "progress",
+        "project-management",
+        "documentation",
+        "memory",
+        "context",
+        "auto-capture",
+        "content-creation",
+        "twitter",
+        "linkedin",
+        "blog",
+        "workflow",
+        "productivity"
       ],
       "strict": true
     }
