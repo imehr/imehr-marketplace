@@ -5,8 +5,8 @@
     "email": "mehran.mozaffari@gmail.com"
   },
   "metadata": {
-    "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, content management, book writing automation, video creation, content extraction, development logging, and workflow automation",
-    "version": "1.10.0"
+    "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, content management, book writing automation, video creation, content extraction, development logging, skill/marketplace creation, and workflow automation",
+    "version": "1.11.0"
   },
   "plugins": [
     {
@@ -299,6 +299,34 @@
         "blog",
         "workflow",
         "productivity"
+      ],
+      "strict": true
+    },
+    {
+      "name": "building-skills-marketplace",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imehr/building-skills-marketplace.git"
+      },
+      "description": "Complete workflow for creating Claude Code skills and marketplace repositories - TDD methodology, verification checklists, git tagging",
+      "version": "1.0.0",
+      "keywords": [
+        "skills",
+        "marketplace",
+        "tdd",
+        "testing",
+        "workflow",
+        "red-green-refactor",
+        "pressure-testing",
+        "verification",
+        "git-tagging",
+        "versioning",
+        "plugin-development",
+        "slash-commands",
+        "skill-creation",
+        "marketplace-setup",
+        "best-practices",
+        "checklists"
       ],
       "strict": true
     }
