@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, content management, book writing automation, video creation, content extraction, development logging, skill/marketplace creation, and workflow automation",
-    "version": "1.11.0"
+    "version": "1.12.0"
   },
   "plugins": [
     {
@@ -276,8 +276,8 @@
         "source": "url",
         "url": "https://github.com/imehr/dev-log-plugin.git"
       },
-      "description": "Automatic development session logging. Captures tools, decisions, accounts, configuration changes, and progress from conversation context. Project-centric organization with timestamped entries. Interview mode for content creation (Twitter, LinkedIn, blogs).",
-      "version": "1.0.0",
+      "description": "Automatic development session logging with configurable storage. Captures tools, decisions, accounts, configuration changes, and progress. First-run setup asks where to store logs. Project-centric organization with timestamped entries. Interview mode for content creation (Twitter, LinkedIn, blogs).",
+      "version": "1.1.0",
       "keywords": [
         "dev-log",
         "logging",
@@ -287,6 +287,7 @@
         "decisions",
         "accounts",
         "configuration",
+        "configurable",
         "progress",
         "project-management",
         "documentation",
