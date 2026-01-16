@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, content management, book writing automation, video creation, content extraction, development logging, skill/marketplace creation, and workflow automation",
-    "version": "1.12.0"
+    "version": "1.13.0"
   },
   "plugins": [
     {
@@ -276,8 +276,8 @@
         "source": "url",
         "url": "https://github.com/imehr/dev-log-plugin.git"
       },
-      "description": "Automatic development session logging with configurable storage. Captures tools, decisions, accounts, configuration changes, and progress. First-run setup asks where to store logs. Project-centric organization with timestamped entries. Interview mode for content creation (Twitter, LinkedIn, blogs).",
-      "version": "1.1.0",
+      "description": "Automatic development session logging with configurable storage. Captures tools, decisions, accounts, configuration changes, and progress. First-run setup asks where to store logs. Project-centric organization with timestamped entries. Interview mode for content creation (Twitter, LinkedIn, blogs). FIXED: Manifest schema.",
+      "version": "1.1.1",
       "keywords": [
         "dev-log",
         "logging",
@@ -309,8 +309,8 @@
         "source": "url",
         "url": "https://github.com/imehr/building-skills-marketplace.git"
       },
-      "description": "Complete workflow for creating Claude Code skills and marketplace repositories - TDD methodology, verification checklists, git tagging",
-      "version": "1.0.0",
+      "description": "Complete workflow for creating Claude Code skills and marketplace repositories - TDD methodology, verification checklists, git tagging, manifest schema validation. FIXED: Manifest schema + comprehensive checklist.",
+      "version": "1.0.1",
       "keywords": [
         "skills",
         "marketplace",
@@ -327,7 +327,10 @@
         "skill-creation",
         "marketplace-setup",
         "best-practices",
-        "checklists"
+        "checklists",
+        "manifest-schema",
+        "validation",
+        "auto-discovery"
       ],
       "strict": true
     }
