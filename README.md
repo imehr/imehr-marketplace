@@ -136,6 +136,18 @@ Create multi-platform explainer videos with intelligent orchestration:
 
 **Requires:** [video_explainer](https://github.com/example/video_explainer) Python CLI
 
+### Create Image Skill (create-image)
+
+**Repository:** [github.com/imehr/create-image-skill](https://github.com/imehr/create-image-skill)
+
+Generate consistent, branded images with templates and style reference grids:
+
+- **Template system** - Organized by topic/style
+- **Style reference grids** - Consistent branding across batches
+- **Providers** - Gemini API, OpenRouter, Vertex AI
+- **Hard requirement** - Nano Banana Pro requires a style grid
+- **/help** - Full command reference via `/create-image help`
+
 ### Capture Content Skill (capture-content)
 
 **Repository:** [github.com/imehr/capture-content-skill](https://github.com/imehr/capture-content-skill)
@@ -172,5 +184,5 @@ This marketplace follows the same pattern as [obra/superpowers-marketplace](http
 
 ## Version
 
-**Current:** v1.9.0
-**Last Updated:** January 2026
+**Current:** v1.14.0
+**Last Updated:** January 19, 2026

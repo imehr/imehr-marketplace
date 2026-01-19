@@ -114,7 +114,12 @@ Install individual plugins from the marketplace:
 - **Description:** Generate audio using 13 TTS providers (Pocket TTS, MLX-Audio, ElevenLabs, Coqui)
 - **Keywords:** audio, tts, voice, multilingual, voice-cloning
 
-### 8. Capture Content
+### 8. Create Image
+- **Version:** 0.1.0
+- **Description:** Generate AI images with templates and style reference grids (Gemini, OpenRouter, Vertex AI)
+- **Keywords:** image, templates, style-grid, branding, gemini, openrouter, vertexai
+
+### 9. Capture Content
 - **Version:** 1.0.0
 - **Description:** Journalist-style interview to extract publishable content
 - **Keywords:** content-creation, interview, social-media, writing, storytelling
@@ -156,6 +161,9 @@ For private repositories (not applicable now, but for future reference):
 3. Set up deploy keys for specific repositories
 
 ## Version History
+
+- **v1.14.0** (2026-01-19)
+  - Added create-image skill
 
 - **v1.9.0** (2026-01-15)
   - Added capture-content skill

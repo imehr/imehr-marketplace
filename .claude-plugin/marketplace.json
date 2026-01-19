@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, content management, book writing automation, video creation, content extraction, development logging, skill/marketplace creation, and workflow automation",
-    "version": "1.13.0"
+    "version": "1.14.0"
   },
   "plugins": [
     {
@@ -166,7 +166,7 @@
         "source": "url",
         "url": "https://github.com/imehr/video-explainer-skill.git"
       },
-      "description": "Create multi-platform explainer videos (YouTube, Shorts, TikTok, Instagram, LinkedIn) with intelligent orchestration, Brand × Platform × Style configuration matrix, learning memory system, and technique skills for hooks, narrative structures, and platform optimization",
+      "description": "Create multi-platform explainer videos (YouTube, Shorts, TikTok, Instagram, LinkedIn) with intelligent orchestration, Brand \u00d7 Platform \u00d7 Style configuration matrix, learning memory system, and technique skills for hooks, narrative structures, and platform optimization",
       "version": "0.1.0",
       "keywords": [
         "video",
@@ -331,6 +331,31 @@
         "manifest-schema",
         "validation",
         "auto-discovery"
+      ],
+      "strict": true
+    },
+    {
+      "name": "create-image",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imehr/create-image-skill.git"
+      },
+      "description": "Generate AI images with templates and style references. Supports Gemini, OpenRouter, and VertexAI, with mandatory style grids for Nano Banana Pro and a full /help command.",
+      "version": "0.1.0",
+      "keywords": [
+        "image",
+        "image-generation",
+        "ai",
+        "templates",
+        "style-reference",
+        "style-grid",
+        "gemini",
+        "openrouter",
+        "vertexai",
+        "nano-banana",
+        "diagram",
+        "illustration",
+        "branding"
       ],
       "strict": true
     }
