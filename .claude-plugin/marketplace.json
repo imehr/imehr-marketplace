@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, content management, book writing automation, video creation, content extraction, development logging, skill/marketplace creation, and workflow automation",
-    "version": "1.14.0"
+    "version": "1.15.0"
   },
   "plugins": [
     {
@@ -309,8 +309,8 @@
         "source": "url",
         "url": "https://github.com/imehr/building-skills-marketplace.git"
       },
-      "description": "Complete workflow for creating Claude Code skills and marketplace repositories - TDD methodology, verification checklists, git tagging, manifest schema validation. FIXED: Manifest schema + comprehensive checklist.",
-      "version": "1.0.1",
+      "description": "Complete workflow for creating Claude Code skills and marketplace repositories. TDD methodology, activation optimization (72%+ success), large portfolio management (10+ skills), and git tagging best practices. Use when creating skills or setting up marketplaces.",
+      "version": "1.1.0",
       "keywords": [
         "skills",
         "marketplace",
@@ -330,7 +330,10 @@
         "checklists",
         "manifest-schema",
         "validation",
-        "auto-discovery"
+        "auto-discovery",
+        "activation-optimization",
+        "portfolio-management",
+        "meta-skills"
       ],
       "strict": true
     },
