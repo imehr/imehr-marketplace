@@ -148,6 +148,30 @@ Generate consistent, branded images with templates and style reference grids:
 - **Hard requirement** - Nano Banana Pro requires a style grid
 - **/help** - Full command reference via `/create-image help`
 
+### Brand Extractor Plugin (brand-extractor)
+
+**Repository:** [github.com/imehr/brand-extractor-plugin](https://github.com/imehr/brand-extractor-plugin)
+
+Extract complete design systems and brand identities from any URL:
+
+- **8-stage extraction pipeline** - Reconnaissance, CSS tokens, assets, voice, synthesis, replication, logo, assembly
+- **5-gate validation** - Generator-critic loop with circuit breaker (max 3 iterations)
+- **W3C DTCG tokens** - 2025.10 specification compliant design tokens
+- **Playwright-based** - Stealth-mode browser extraction with confidence scoring
+- **Component replication** - Nav, hero, buttons, cards, footer, forms with pixel comparison
+- **Brand voice analysis** - Tone dimensions, voice traits, CTA patterns, content guidelines
+
+**Commands:**
+```bash
+/brand-extractor:extract-brand https://example.com       # Full extraction
+/brand-extractor:validate-extraction ./docs/extraction/   # Validate existing
+```
+
+**Installation:**
+```bash
+/plugin install brand-extractor@imehr-marketplace
+```
+
 ### Capture Content Skill (capture-content)
 
 **Repository:** [github.com/imehr/capture-content-skill](https://github.com/imehr/capture-content-skill)
@@ -184,5 +208,5 @@ This marketplace follows the same pattern as [obra/superpowers-marketplace](http
 
 ## Version
 
-**Current:** v1.14.0
-**Last Updated:** January 19, 2026
+**Current:** v1.16.0
+**Last Updated:** February 16, 2026
