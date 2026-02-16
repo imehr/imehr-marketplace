@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, brand extraction, content management, book writing automation, video creation, content extraction, development logging, skill/marketplace creation, and workflow automation",
-    "version": "1.16.0"
+    "version": "1.17.0"
   },
   "plugins": [
     {
@@ -62,8 +62,8 @@
         "source": "url",
         "url": "https://github.com/imehr/skills.git"
       },
-      "description": "Battle-tested skills: Learner Tools, Telegram bot/Mini App, Railway deployment, Frontend UI (Next.js/React/Shadcn), Modern OKLCH Design System, skills/marketplace builder, TDD methodology, verification safeguards",
-      "version": "1.5.0",
+      "description": "Battle-tested skills: Railway deployment (v2.0 CLI reference), Telegram bot/Mini App, Frontend UI (Next.js/React/Shadcn), Modern OKLCH Design System, skills/marketplace builder, TDD methodology, verification safeguards",
+      "version": "1.6.0",
       "keywords": [
         "learning",
         "learner-tools",
