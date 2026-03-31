@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, brand extraction, content management, book writing automation, video creation, content extraction, development logging, skill/marketplace creation, and workflow automation",
-    "version": "1.17.0"
+    "version": "1.18.0"
   },
   "plugins": [
     {
@@ -157,6 +157,28 @@
         "github-releases",
         "self-updating",
         "compliance-validation"
+      ],
+      "strict": true
+    },
+    {
+      "name": "masfactory",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imehr/masfactory.git"
+      },
+      "description": "Self-learning agent team framework for Claude Code. Build agent teams from natural language with Vibe Graphing, dual execution, 6 architecture patterns, and contract-driven skill distillation.",
+      "version": "1.1.0",
+      "keywords": [
+        "multi-agent",
+        "orchestration",
+        "workflow",
+        "agent-team",
+        "vibe-graphing",
+        "blueprint",
+        "dag",
+        "harness",
+        "self-learning",
+        "skill-registry"
       ],
       "strict": true
     },

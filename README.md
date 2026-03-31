@@ -13,7 +13,7 @@ Professional skills for Claude Code covering deployment, infrastructure, and dev
 ### Install Skills Plugin
 
 ```bash
-/plugin install imehr-skills@imehr-skills-marketplace
+/plugin install imehr-skills@imehr-marketplace
 ```
 
 ## Available Skills
@@ -79,6 +79,23 @@ Complete AI-powered book writing automation system:
 
 ```bash
 /plugin install book-writer@imehr-marketplace
+```
+
+### MASFactory Plugin (masfactory)
+
+**Repository:** [github.com/imehr/masfactory](https://github.com/imehr/masfactory)
+
+Graph-centric framework for orchestrating Claude Code multi-agent systems:
+
+- **Vibe Graphing** - 3-stage intent-to-blueprint pipeline
+- **Dual execution** - Python runtime or Agent Teams
+- **Self-learning skills** - Contract-driven distillation and promotion
+- **Agent harnesses** - Persistent agents, skills, and orchestrators
+
+**Installation**
+
+```bash
+/plugin install masfactory@imehr-marketplace
 ```
 
 ## Features
@@ -208,5 +225,5 @@ This marketplace follows the same pattern as [obra/superpowers-marketplace](http
 
 ## Version
 
-**Current:** v1.16.0
-**Last Updated:** February 16, 2026
+**Current:** v1.18.0
+**Last Updated:** March 31, 2026

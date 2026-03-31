@@ -14,9 +14,14 @@ This document explains the marketplace setup, issues found, and how to use it.
 - ✅ skills (imehr-skills)
 - ✅ blog-cc-framework
 - ✅ book-writer-plugin
+- ✅ masfactory
 - ✅ video-explainer-skill
 - ✅ create-audio-skill (created and published)
 - ✅ capture-content-skill
+- ✅ dev-log-plugin
+- ✅ building-skills-marketplace
+- ✅ create-image-skill
+- ✅ brand-extractor-plugin
 
 ### 2. Missing Repository
 **Problem:** The `create-audio-skill` repository referenced in marketplace.json didn't exist on GitHub.
@@ -45,6 +50,9 @@ Install individual plugins from the marketplace:
 
 # Install skills collection
 /plugin install imehr-skills@imehr-marketplace
+
+# Install MASFactory multi-agent framework
+/plugin install masfactory@imehr-marketplace
 
 # Install capture-content
 /plugin install capture-content@imehr-marketplace
@@ -104,25 +112,45 @@ Install individual plugins from the marketplace:
 - **Description:** AI-powered book writing automation with 35+ agents
 - **Keywords:** book-writing, content-creation, epub, pdf, multi-agent
 
-### 6. Video Explainer
+### 6. MASFactory
+- **Version:** 1.1.0
+- **Description:** Self-learning agent team framework for Claude Code
+- **Keywords:** multi-agent, orchestration, workflow, dag, harness
+
+### 7. Video Explainer
 - **Version:** 0.1.0
 - **Description:** Multi-platform video creation (YouTube, TikTok, Instagram, LinkedIn)
 - **Keywords:** video, explainer, multi-platform, storytelling, animation
 
-### 7. Create Audio
+### 8. Create Audio
 - **Version:** 0.3.0
 - **Description:** Generate audio using 13 TTS providers (Pocket TTS, MLX-Audio, ElevenLabs, Coqui)
 - **Keywords:** audio, tts, voice, multilingual, voice-cloning
-
-### 8. Create Image
-- **Version:** 0.1.0
-- **Description:** Generate AI images with templates and style reference grids (Gemini, OpenRouter, Vertex AI)
-- **Keywords:** image, templates, style-grid, branding, gemini, openrouter, vertexai
 
 ### 9. Capture Content
 - **Version:** 1.0.0
 - **Description:** Journalist-style interview to extract publishable content
 - **Keywords:** content-creation, interview, social-media, writing, storytelling
+
+### 10. Dev Log
+- **Version:** 1.1.1
+- **Description:** Automatic development session logging with configurable storage
+- **Keywords:** dev-log, logging, session-tracking, development, documentation
+
+### 11. Building Skills Marketplace
+- **Version:** 1.1.0
+- **Description:** Workflow for creating Claude Code skills and marketplace repositories
+- **Keywords:** skills, marketplace, tdd, validation, plugin-development
+
+### 12. Create Image
+- **Version:** 0.1.0
+- **Description:** Generate AI images with templates and style references
+- **Keywords:** image, templates, style-grid, gemini, openrouter, vertexai
+
+### 13. Brand Extractor
+- **Version:** 1.0.0
+- **Description:** Extract complete design systems and brand identities from any URL
+- **Keywords:** design-system, brand-extraction, design-tokens, playwright
 
 ## Marketplace Structure
 

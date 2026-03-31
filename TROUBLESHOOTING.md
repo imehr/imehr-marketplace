@@ -7,7 +7,7 @@ Your marketplace IS installed and configured correctly:
 - ✅ Listed in `~/.claude/plugins/known_marketplaces.json`
 - ✅ Cloned to `~/.claude/plugins/marketplaces/imehr-marketplace`
 - ✅ JSON structure is valid
-- ✅ All 9 plugins are listed
+- ✅ All 13 plugins are listed
 - ✅ All plugin repositories are public
 
 ## The "/plugin" Command Confusion
@@ -127,10 +127,14 @@ You can install any of these:
 3. `imehr-skills@imehr-marketplace` - Skills Collection (v1.5.0)
 4. `blog-cc-framework@imehr-marketplace` - Blog Framework (v1.1.1)
 5. `book-writer@imehr-marketplace` - Book Writing (v3.0.0)
-6. `video-explainer-skill@imehr-marketplace` - Video Creation (v0.1.0)
-7. `create-audio@imehr-marketplace` - Audio Generation (v0.3.0)
-8. `capture-content@imehr-marketplace` - Content Extraction (v1.0.0)
-9. `dev-log@imehr-marketplace` - Development Logging (v1.0.0)
+6. `masfactory@imehr-marketplace` - Multi-agent orchestration framework (v1.1.0)
+7. `video-explainer-skill@imehr-marketplace` - Video Creation (v0.1.0)
+8. `create-audio@imehr-marketplace` - Audio Generation (v0.3.0)
+9. `capture-content@imehr-marketplace` - Content Extraction (v1.0.0)
+10. `dev-log@imehr-marketplace` - Development Logging (v1.1.1)
+11. `building-skills-marketplace@imehr-marketplace` - Skills Marketplace Builder (v1.1.0)
+12. `create-image@imehr-marketplace` - Image Generation (v0.1.0)
+13. `brand-extractor@imehr-marketplace` - Brand Extraction (v1.0.0)
 
 ## Next Steps
 
