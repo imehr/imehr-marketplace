@@ -410,6 +410,26 @@
         "logo-extraction"
       ],
       "strict": true
+    },
+    {
+      "name": "agent-avatar-profile",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imehr/agent-avatar-profile.git"
+      },
+      "description": "Reusable square agent avatar and profile portrait plugin with a canonical portrait library, named styles, gallery browsing, and token-saving portrait reuse workflows.",
+      "version": "1.0.0",
+      "keywords": [
+        "avatar",
+        "profile",
+        "agent",
+        "portrait",
+        "pixel-art",
+        "gallery",
+        "claude-code-plugin",
+        "style-library"
+      ],
+      "strict": true
     }
   ]
 }
