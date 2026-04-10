@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, brand extraction, content management, book writing automation, video creation, content extraction, development logging, skill/marketplace creation, and workflow automation",
-    "version": "1.19.0"
+    "version": "1.20.0"
   },
   "plugins": [
     {
@@ -428,6 +428,31 @@
         "gallery",
         "claude-code-plugin",
         "style-library"
+      ],
+      "strict": true
+    },
+    {
+      "name": "me-md",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imehr/me-md.git"
+      },
+      "description": "Build a ME.MD profile that captures who you are and how you decide. Reads your CliftonStrengths report (or runs a structured interview), analyzes your real prompt history across Claude Code / Codex / OpenCode, and synthesizes a 12-section personality and decision-making file. Local-first, no telemetry.",
+      "version": "0.1.0",
+      "keywords": [
+        "personal-profile",
+        "personality",
+        "cliftonstrengths",
+        "user-context",
+        "self-description",
+        "me-md",
+        "interview",
+        "log-analysis",
+        "prompt-analysis",
+        "decision-style",
+        "working-style",
+        "ai-collaboration",
+        "context-engineering"
       ],
       "strict": true
     }
