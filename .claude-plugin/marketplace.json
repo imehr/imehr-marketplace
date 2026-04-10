@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Professional skills for learning systems, deployment, infrastructure, frontend development, design systems, brand extraction, content management, book writing automation, video creation, content extraction, development logging, skill/marketplace creation, and workflow automation",
-    "version": "1.20.0"
+    "version": "1.21.0"
   },
   "plugins": [
     {
@@ -381,6 +381,31 @@
         "diagram",
         "illustration",
         "branding"
+      ],
+      "strict": true
+    },
+    {
+      "name": "design-extractor",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imehr/design-extractor.git"
+      },
+      "description": "Extract complete, validated design systems from any URL — patterns, relationships, motion, voice, and a self-validating shadcn/Tailwind HTML replica. Produces per-brand DESIGN.md and installable SKILL.md in a local design library with a Next.js browser UI.",
+      "version": "0.1.0",
+      "keywords": [
+        "design-system",
+        "design-extraction",
+        "design-tokens",
+        "dtcg",
+        "shadcn",
+        "tailwind",
+        "visual-validation",
+        "brand-voice",
+        "patterns",
+        "design-library",
+        "replica",
+        "playwright",
+        "agent-browser"
       ],
       "strict": true
     },
